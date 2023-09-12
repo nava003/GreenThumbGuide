@@ -18,13 +18,7 @@ Plant.init(
     description: {
       type: DataTypes.STRING,
     },
-    user_id: { // Keep? Maybe move
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'user',
-        key: 'id',
-      },
-    },
+    // Need the other fields here from plantData.json
   },
   {
     sequelize,
@@ -35,4 +29,4 @@ Plant.init(
   }
 );
 
-module.exports = Project;
+module.exports = Plant;

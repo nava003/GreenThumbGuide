@@ -35,6 +35,16 @@ User.init(
         len: [8],
       },
     },
+    // Foreign key to Plant table.
+    // Will be used to either represent a user's favorite plant,
+    // or a new plant page the user created, or for some other method/purpose.
+    plant_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'plant',
+        key: 'id',
+      },
+    },
   },
   {
     hooks: {
