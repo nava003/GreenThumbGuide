@@ -1,3 +1,4 @@
+[
   {
       "name": "Spider Plant",
       "soilType": "Well-draining potting mix",
@@ -128,5 +129,6 @@
       "name": "Dieffenbachia (Dumb Cane)",
       "soilType": "Well-draining potting mix",
       "wateringInches": 1.0,
-      "toxicToPets": true,
+      "toxicToPets": true
   }
+]
