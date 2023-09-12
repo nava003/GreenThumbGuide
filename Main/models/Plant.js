@@ -18,6 +18,16 @@ Plant.init(
     description: {
       type: DataTypes.STRING,
     },
+    // Foreign key to User table.
+    // Will be used to either represent a user's favorite plant,
+    // or a new plant page the user created, or for some other method/purpose.
+    user_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'user',
+        key: 'id',
+      },
+    },
     // Need the other fields here from plantData.json
   },
   {
