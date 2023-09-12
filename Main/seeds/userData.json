@@ -310,5 +310,21 @@
     "toxicToPets": true,
     "sunlight": "Bright, indirect sunlight",
     "wateringFrequency": "Weekly"
+  },
+  {
+    "name": "Bird's Nest Fern",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 0.75,
+    "toxicToPets": false,
+    "sunlight": "Medium to indirect sunlight",
+    "wateringFrequency": "Weekly"
+  },
+  {
+    "name": "Parlor Palm",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 0.5,
+    "toxicToPets": false,
+    "sunlight": "Low to indirect sunlight",
+    "wateringFrequency": "Bi-weekly"
   }
 ]
