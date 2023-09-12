@@ -1,134 +1,314 @@
 [
   {
-      "name": "Spider Plant",
-      "soilType": "Well-draining potting mix",
-      "wateringInches": 1.0,
-      "toxicToPets": false,
-      "sunlight": "Indirect sunlight"
+    "name": "Spider Plant",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.0,
+    "toxicToPets": false,
+    "sunlight": "Indirect sunlight",
+    "wateringFrequency": "Weekly"
   },
   {
-      "name": "Snake Plant",
-      "soilType": "Well-draining potting mix",
-      "wateringInches": 0.5,
-      "toxicToPets": true,
-      "sunlight": "Low to indirect sunlight"
+    "name": "Snake Plant",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 0.5,
+    "toxicToPets": true,
+    "sunlight": "Low to indirect sunlight",
+    "wateringFrequency": "Monthly"
   },
   {
-      "name": "Pothos",
-      "soilType": "Well-draining potting mix",
-      "wateringInches": 0.5,
-      "toxicToPets": true,
-      "sunlight": "Low to indirect sunlight"
+    "name": "Pothos",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 0.5,
+    "toxicToPets": true,
+    "sunlight": "Low to indirect sunlight",
+    "wateringFrequency": "Bi-weekly"
   },
   {
-      "name": "Peace Lily",
-      "soilType": "Well-draining potting mix",
-      "wateringInches": 1.0,
-      "toxicToPets": true,
-      "sunlight": "Low to indirect sunlight"
+    "name": "Peace Lily",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.0,
+    "toxicToPets": true,
+    "sunlight": "Low to indirect sunlight",
+    "wateringFrequency": "Weekly"
   },
   {
-      "name": "ZZ Plant",
-      "soilType": "Well-draining potting mix",
-      "wateringInches": 0.5,
-      "toxicToPets": true,
-      "sunlight": "Low to indirect sunlight"
+    "name": "ZZ Plant",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 0.5,
+    "toxicToPets": true,
+    "sunlight": "Low to indirect sunlight",
+    "wateringFrequency": "Monthly"
   },
   {
-      "name": "Aloe Vera",
-      "soilType": "Cactus or succulent mix",
-      "wateringInches": 0.5,
-      "toxicToPets": true,
-      "sunlight": "Direct to indirect sunlight"
+    "name": "Aloe Vera",
+    "soilType": "Cactus or succulent mix",
+    "wateringInches": 0.5,
+    "toxicToPets": true,
+    "sunlight": "Direct to indirect sunlight",
+    "wateringFrequency": "Monthly"
   },
   {
-      "name": "Rubber Plant",
-      "soilType": "Well-draining potting mix",
-      "wateringInches": 1.0,
-      "toxicToPets": true,
-      "sunlight": "Medium to indirect sunlight"
+    "name": "Rubber Plant",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.0,
+    "toxicToPets": true,
+    "sunlight": "Medium to indirect sunlight",
+    "wateringFrequency": "Bi-weekly"
   },
   {
-      "name": "Monstera Deliciosa",
-      "soilType": "Well-draining potting mix",
-      "wateringInches": 1.5,
-      "toxicToPets": true,
-      "sunlight": "Medium to indirect sunlight"
+    "name": "Monstera Deliciosa",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.5,
+    "toxicToPets": true,
+    "sunlight": "Medium to indirect sunlight",
+    "wateringFrequency": "Weekly"
   },
   {
-      "name": "Fiddle Leaf Fig",
-      "soilType": "Well-draining potting mix",
-      "wateringInches": 1.5,
-      "toxicToPets": true,
-      "sunlight": "Medium to indirect sunlight"
+    "name": "Fiddle Leaf Fig",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.5,
+    "toxicToPets": true,
+    "sunlight": "Medium to indirect sunlight",
+    "wateringFrequency": "Bi-weekly"
   },
   {
-      "name": "Succulent (Echeveria)",
-      "soilType": "Succulent or cactus mix",
-      "wateringInches": 0.25,
-      "toxicToPets": true,
-      "sunlight": "Direct sunlight"
+    "name": "Succulent (Echeveria)",
+    "soilType": "Succulent or cactus mix",
+    "wateringInches": 0.25,
+    "toxicToPets": true,
+    "sunlight": "Direct sunlight",
+    "wateringFrequency": "Monthly"
   },
   {
-      "name": "Jade Plant",
-      "soilType": "Succulent or cactus mix",
-      "wateringInches": 0.5,
-      "toxicToPets": true,
-      "sunlight": "Direct to indirect sunlight"
+    "name": "Jade Plant",
+    "soilType": "Succulent or cactus mix",
+    "wateringInches": 0.5,
+    "toxicToPets": true,
+    "sunlight": "Direct to indirect sunlight",
+    "wateringFrequency": "Bi-weekly"
   },
   {
-      "name": "Boston Fern",
-      "soilType": "Well-draining potting mix",
-      "wateringInches": 1.0,
-      "toxicToPets": false,
-      "sunlight": "Indirect to medium sunlight"
+    "name": "Boston Fern",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.0,
+    "toxicToPets": false,
+    "sunlight": "Indirect to medium sunlight",
+    "wateringFrequency": "Weekly"
   },
   {
-      "name": "Lavender",
-      "soilType": "Well-draining potting mix",
-      "wateringInches": 0.5,
-      "toxicToPets": true,
-      "sunlight": "Direct to indirect sunlight"
+    "name": "Lavender",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 0.5,
+    "toxicToPets": true,
+    "sunlight": "Direct to indirect sunlight",
+    "wateringFrequency": "Bi-weekly"
   },
   {
-      "name": "Calathea",
-      "soilType": "Well-draining potting mix",
-      "wateringInches": 1.0,
-      "toxicToPets": true,
-      "sunlight": "Indirect to low sunlight"
+    "name": "Calathea",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.0,
+    "toxicToPets": true,
+    "sunlight": "Indirect to low sunlight",
+    "wateringFrequency": "Weekly"
   },
   {
-      "name": "African Violet",
-      "soilType": "African violet potting mix",
-      "wateringInches": 0.5,
-      "toxicToPets": false,
-      "sunlight": "Indirect sunlight"
+    "name": "African Violet",
+    "soilType": "African violet potting mix",
+    "wateringInches": 0.5,
+    "toxicToPets": false,
+    "sunlight": "Indirect sunlight",
+    "wateringFrequency": "Monthly"
   },
   {
-      "name": "Bamboo Palm",
-      "soilType": "Well-draining potting mix",
-      "wateringInches": 1.0,
-      "toxicToPets": false,
-      "sunlight": "Indirect to low sunlight"
+    "name": "Bamboo Palm",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.0,
+    "toxicToPets": false,
+    "sunlight": "Indirect to low sunlight",
+    "wateringFrequency": "Bi-weekly"
   },
   {
-      "name": "String of Pearls",
-      "soilType": "Succulent or cactus mix",
-      "wateringInches": 0.25,
-      "toxicToPets": true,
-      "sunlight": "Direct sunlight"
+    "name": "String of Pearls",
+    "soilType": "Succulent or cactus mix",
+    "wateringInches": 0.25,
+    "toxicToPets": true,
+    "sunlight": "Direct sunlight",
+    "wateringFrequency": "Monthly"
   },
   {
-      "name": "Philodendron",
-      "soilType": "Well-draining potting mix",
-      "wateringInches": 0.5,
-      "toxicToPets": true,
-      "sunlight": "Medium to indirect sunlight"
+    "name": "Philodendron",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 0.5,
+    "toxicToPets": true,
+    "sunlight": "Medium to indirect sunlight",
+    "wateringFrequency": "Bi-weekly"
   },
   {
-      "name": "Dieffenbachia (Dumb Cane)",
-      "soilType": "Well-draining potting mix",
-      "wateringInches": 1.0,
-      "toxicToPets": true
+    "name": "Dieffenbachia (Dumb Cane)",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.0,
+    "toxicToPets": true,
+    "sunlight": "Low to indirect sunlight",
+    "wateringFrequency": "Weekly"
+  },
+  {
+    "name": "Ficus Bonsai",
+    "soilType": "Bonsai potting mix",
+    "wateringInches": 0.5,
+    "toxicToPets": true,
+    "sunlight": "Medium to indirect sunlight",
+    "wateringFrequency": "Bi-weekly"
+  },
+  {
+    "name": "Dracaena Marginata",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 0.5,
+    "toxicToPets": true,
+    "sunlight": "Indirect to medium sunlight",
+    "wateringFrequency": "Bi-weekly"
+  },
+  {
+    "name": "African Mask Plant",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.0,
+    "toxicToPets": true,
+    "sunlight": "Medium to indirect sunlight",
+    "wateringFrequency": "Weekly"
+  },
+  {
+    "name": "Bird of Paradise",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.5,
+    "toxicToPets": true,
+    "sunlight": "Bright, indirect sunlight",
+    "wateringFrequency": "Bi-weekly"
+  },
+  {
+    "name": "English Ivy",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 0.5,
+    "toxicToPets": true,
+    "sunlight": "Medium to indirect sunlight",
+    "wateringFrequency": "Weekly"
+  },
+  {
+    "name": "Chinese Evergreen",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.0,
+    "toxicToPets": true,
+    "sunlight": "Low to indirect sunlight",
+    "wateringFrequency": "Bi-weekly"
+  },
+  {
+    "name": "Schefflera (Umbrella Plant)",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.0,
+    "toxicToPets": true,
+    "sunlight": "Medium to indirect sunlight",
+    "wateringFrequency": "Weekly"
+  },
+  {
+    "name": "Chinese Money Plant (Pilea)",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 0.5,
+    "toxicToPets": false,
+    "sunlight": "Indirect sunlight",
+    "wateringFrequency": "Bi-weekly"
+  },
+  {
+    "name": "Christmas Cactus",
+    "soilType": "Cactus or succulent mix",
+    "wateringInches": 0.5,
+    "toxicToPets": false,
+    "sunlight": "Indirect to low sunlight",
+    "wateringFrequency": "Monthly"
+  },
+  {
+    "name": "Zebra Plant (Haworthia)",
+    "soilType": "Succulent or cactus mix",
+    "wateringInches": 0.25,
+    "toxicToPets": true,
+    "sunlight": "Indirect sunlight",
+    "wateringFrequency": "Monthly"
+  },
+  {
+    "name": "Alocasia Polly",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.0,
+    "toxicToPets": true,
+    "sunlight": "Bright, indirect sunlight",
+    "wateringFrequency": "Weekly"
+  },
+  {
+    "name": "Dwarf Umbrella Tree (Schefflera Arboricola)",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.0,
+    "toxicToPets": true,
+    "sunlight": "Medium to indirect sunlight",
+    "wateringFrequency": "Bi-weekly"
+  },
+  {
+    "name": "Heartleaf Philodendron",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 0.5,
+    "toxicToPets": true,
+    "sunlight": "Low to indirect sunlight",
+    "wateringFrequency": "Weekly"
+  },
+  {
+    "name": "Aglaonema (Chinese Evergreen)",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.0,
+    "toxicToPets": true,
+    "sunlight": "Low to indirect sunlight",
+    "wateringFrequency": "Bi-weekly"
+  },
+  {
+    "name": "Ficus Elastica (Rubber Plant)",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.0,
+    "toxicToPets": true,
+    "sunlight": "Medium to indirect sunlight",
+    "wateringFrequency": "Weekly"
+  },
+  {
+    "name": "Ponytail Palm",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 0.5,
+    "toxicToPets": true,
+    "sunlight": "Bright, indirect sunlight",
+    "wateringFrequency": "Bi-weekly"
+  },
+  {
+    "name": "String of Bananas",
+    "soilType": "Succulent or cactus mix",
+    "wateringInches": 0.25,
+    "toxicToPets": true,
+    "sunlight": "Bright, indirect sunlight",
+    "wateringFrequency": "Monthly"
+  },
+  {
+    "name": "Nerve Plant (Fittonia)",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 0.5,
+    "toxicToPets": true,
+    "sunlight": "Low to indirect sunlight",
+    "wateringFrequency": "Weekly"
+  },
+  {
+    "name": "Alocasia Zebrina",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 1.0,
+    "toxicToPets": true,
+    "sunlight": "Medium to indirect sunlight",
+    "wateringFrequency": "Bi-weekly"
+  },
+  {
+    "name": "Croton (Codiaeum variegatum)",
+    "soilType": "Well-draining potting mix",
+    "wateringInches": 0.5,
+    "toxicToPets": true,
+    "sunlight": "Bright, indirect sunlight",
+    "wateringFrequency": "Weekly"
   }
 ]
