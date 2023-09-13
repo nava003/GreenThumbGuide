@@ -1,7 +1,7 @@
 const sequelize = require('../config/connection');
 const { User, Plant } = require('../models');
 
-const userData = require('./plantData.json');
+const userData = require('./userData.json');
 const plantData = require('./plantData.json');
 
 const seedDatabase = async () => {
@@ -11,13 +11,16 @@ const seedDatabase = async () => {
     individualHooks: true,
     returning: true,
   });
+  
+  const plantDataUser = [];
 
-  for (const plant of plantData) {
-    await Plant.create({
-      ...plant,
-      user_id: users[Math.floor(Math.random() * users.length)].id,
-    });
-  }
+  for(var i = 0; i < plantData.length; i++) {
+    plantDataUser.push({
+      ...plantData[i],
+      user_id: users[Math.floor(Math.random()* users.length)].id,
+    })};
+
+  await Plant.bulkCreate(plantDataUser);
 
   process.exit(0);
 };
