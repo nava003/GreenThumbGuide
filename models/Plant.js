@@ -18,6 +18,21 @@ Plant.init(
     description: {
       type: DataTypes.STRING,
     },
+    soilType: {
+      type: DataTypes.STRING, // Corresponds to the "soilType" field in plantData.json
+    },
+    wateringInches: {
+      type: DataTypes.FLOAT, // Corresponds to the "wateringInches" field in plantData.json
+    },
+    toxicToPets: {
+      type: DataTypes.BOOLEAN, // Corresponds to the "toxicToPets" field in plantData.json
+    },
+    sunlight: {
+      type: DataTypes.STRING, // Corresponds to the "sunlight" field in plantData.json
+    },
+    wateringFrequency: {
+      type: DataTypes.STRING, // Corresponds to the "wateringFrequency" field in plantData.json
+    },
     // Foreign key to User table.
     // Will be used to either represent a user's favorite plant,
     // or a new plant page the user created, or for some other method/purpose.
@@ -28,14 +43,13 @@ Plant.init(
         key: 'id',
       },
     },
-    // Need the other fields here from plantData.json
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'project',
+    modelName: 'plant',
   }
 );
 
