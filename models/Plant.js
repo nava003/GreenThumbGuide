@@ -43,14 +43,13 @@ Plant.init(
         key: 'id',
       },
     },
-    // Need the other fields here from plantData.json
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'project',
+    modelName: 'plant',
   }
 );
 
