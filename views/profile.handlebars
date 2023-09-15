@@ -1,4 +1,43 @@
+{{!-- Display user name / favorite plants (plants we favorited), possibly dummy buttons for future development / optionals: email & update password / delete profile/account --}}
+
 <div class="row">
+  <div class="col-md-12">
+    <h2>Welcome, {{user.name}}!</h2>
+    <p>Email: {{user.email}}</p>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h3>Your Favorite Plants:</h3>
+
+    <ul>
+      {{#each favoritePlants}}
+        <li>
+          <strong>Name:</strong> {{name}}<br>
+          <strong>Type:</strong> {{type}}<br>
+          <!-- Add more properties as needed -->
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+
+  <div class="col-md-6">
+    <h3>Other Account Information:</h3>
+
+    <p>
+      <!-- Display other account information here, such as account settings, profile picture, etc. -->
+    </p>
+
+    <!-- Placeholder buttons for future development -->
+    <button class="btn btn-primary">Edit Profile</button>
+    <button class="btn btn-danger">Delete Account</button>
+  </div>
+</div>
+
+
+
+{{!-- <div class="row">
   <div class="col-auto">
     <h2>Welcome, {{name}}!</h2>
   </div>
@@ -45,4 +84,4 @@
   {{/if}}
 </div>
 
-<script src="./js/profile.js"></script>
+<script src="./js/profile.js"></script> --}}
