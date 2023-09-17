@@ -4,7 +4,7 @@ const { Plant } = require('../../models');
 // Route to render the form
 router.get('/add-plant', async (req, res) => {
     // Render the add-plant.handlebars view
-    response.render('add-plant');
+    res.render('add-plant');
 });
 
 // Route to handle form submission and add plant data
