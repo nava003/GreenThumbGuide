@@ -2,16 +2,18 @@ const router = require('express').Router();
 const { Plant } = require('../../models');
 const withAuth = require('../../utils/auth');
 
+// Route to add a new plant
 router.post('/', withAuth, async (req, res) => {
   try {
+    // Create a new plant record in the database, associating it with the logged-in user
     const newPlant = await Plant.create({
       ...req.body,
-      user_id: req.session.user_id,
+      user_id: req.session.user_id, // This associates the plant with the logged-in user
     });
 
-    res.status(200).json(newPlant);
+    res.status(201).json(newPlant); // Use status 201 for resource creation
   } catch (err) {
-    res.status(400).json(err);
+    res.status(400).json(err); // Handle errors, e.g., validation errors
   }
 });
 
