@@ -17,19 +17,19 @@ router.post('/', withAuth, async (req, res) => {
 
 router.delete('/:id', withAuth, async (req, res) => {
   try {
-    const projectData = await Plant.destroy({
+    const plantData = await Plant.destroy({
       where: {
         id: req.params.id,
         user_id: req.session.user_id,
       },
     });
 
-    if (!projectData) {
-      res.status(404).json({ message: 'No project found with this id!' });
+    if (!plantData) {
+      res.status(404).json({ message: 'No plant found with this ID!' });
       return;
     }
 
-    res.status(200).json(projectData);
+    res.status(200).json(plantData);
   } catch (err) {
     res.status(500).json(err);
   }
