@@ -58,7 +58,7 @@ User.init(
 User.associate = (models) => {
   User.belongsToMany(models.Plant, {
     through: 'user_Plant',
-    as: 'favorittePlants',
+    as: 'favoritePlants',
     foreignKey: 'user_id',
   });
 };
