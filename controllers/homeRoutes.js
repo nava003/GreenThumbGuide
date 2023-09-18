@@ -28,6 +28,18 @@ router.get('/', async (req, res) => {
   }
 });
 
+router.post('/get-plant-data', async (req, res) => {
+  const searchData = await Plant.findOne({ 
+    where: { name: req.body.name }
+  });
+  
+  console.log(searchData);
+
+  // if(searchData) {
+  //   res.render('/homepage');
+  // }
+})
+
 router.get('/login', (req, res) => {
   // If the user is already logged in, redirect the request to another route
   if (req.session.logged_in) {
