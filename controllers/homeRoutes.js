@@ -41,21 +41,21 @@ router.get('/login', (req, res) => {
 router.get('/plant', async (req, res) => {
   try {
     res.render('plant');
-    // const projectData = await Project.findByPk(req.params.id, {
-    //   include: [
-    //     {
-    //       model: User,
-    //       attributes: ['name'],
-    //     },
-    //   ],
-    // });
+    const projectData = await Project.findByPk(req.params.id, {
+      include: [
+        {
+          model: User,
+          attributes: ['name'],
+        },
+      ],
+    });
 
-    // const project = projectData.get({ plain: true });
+    const plant = plantData.get({ plain: true });
 
-    // res.render('project', {
-    //   ...project,
-    //   logged_in: req.session.logged_in
-    // });
+    res.render('plant', {
+      ...plant,
+      logged_in: req.session.logged_in
+    });
   } catch (err) {
     res.status(500).json(err);
   }

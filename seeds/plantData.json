@@ -326,5 +326,125 @@
     "toxicToPets": false,
     "sunlight": "Low to indirect sunlight",
     "wateringFrequency": "Bi-weekly"
+  },
+  {
+    "name": "Roses",
+    "soilType": "Well-draining soil",
+    "wateringAmount": "Regular watering",
+    "sunlight": "Full sun to partial shade",
+    "toxicToPets": false,
+    "wateringFrequency": "2-3 times a week"
+  },
+  {
+    "name": "Tulips",
+    "soilType": "Well-draining soil",
+    "wateringAmount": "Regular watering",
+    "sunlight": "Full sun to partial shade",
+    "toxicToPets": true,
+    "wateringFrequency": "2-3 times a week"
+  },
+  {
+    "name": "Daffodils",
+    "soilType": "Well-draining soil",
+    "wateringAmount": "Regular watering",
+    "sunlight": "Full sun to partial shade",
+    "toxicToPets": true,
+    "wateringFrequency": "2-3 times a week"
+  },
+  {
+    "name": "Orchids",
+    "soilType": "Orchid mix",
+    "wateringAmount": "Moderate watering",
+    "sunlight": "Bright indirect light",
+    "toxicToPets": true,
+    "wateringFrequency": "Once a week"
+  },
+  {
+    "name": "Lilies",
+    "soilType": "Well-draining soil",
+    "wateringAmount": "Regular watering",
+    "sunlight": "Bright indirect light",
+    "toxicToPets": true,
+    "wateringFrequency": "2-3 times a week"
+  },
+  {
+    "name": "Gerbera Daisies",
+    "soilType": "Well-draining soil",
+    "wateringAmount": "Regular watering",
+    "sunlight": "Full sun",
+    "toxicToPets": false,
+    "wateringFrequency": "2-3 times a week"
+  },
+  {
+    "name": "Carnations",
+    "soilType": "Well-draining soil",
+    "wateringAmount": "Regular watering",
+    "sunlight": "Full sun to partial shade",
+    "toxicToPets": false,
+    "wateringFrequency": "2-3 times a week"
+  },
+  {
+    "name": "Sunflowers",
+    "soilType": "Well-draining soil",
+    "wateringAmount": "Regular watering",
+    "sunlight": "Full sun",
+    "toxicToPets": false,
+    "wateringFrequency": "2-3 times a week"
+  },
+  {
+    "name": "Poinsettias",
+    "soilType": "Well-draining soil",
+    "wateringAmount": "Moderate watering",
+    "sunlight": "Bright indirect light",
+    "toxicToPets": true,
+    "wateringFrequency": "Once a week"
+  },
+  {
+    "name": "Hydrangeas",
+    "soilType": "Well-draining soil",
+    "wateringAmount": "Regular watering",
+    "sunlight": "Partial shade",
+    "toxicToPets": true,
+    "wateringFrequency": "2-3 times a week"
+  },
+  {
+    "name": "African Violets",
+    "soilType": "African violet mix",
+    "wateringAmount": "Moderate watering",
+    "sunlight": "Bright indirect light",
+    "toxicToPets": false,
+    "wateringFrequency": "Once a week"
+  },
+  {
+    "name": "Peonies",
+    "soilType": "Well-draining soil",
+    "wateringAmount": "Regular watering",
+    "sunlight": "Full sun to partial shade",
+    "toxicToPets": false,
+    "wateringFrequency": "2-3 times a week"
+  },
+  {
+    "name": "Marigolds",
+    "soilType": "Well-draining soil",
+    "wateringAmount": "Regular watering",
+    "sunlight": "Full sun",
+    "toxicToPets": false,
+    "wateringFrequency": "2-3 times a week"
+  },
+  {
+    "name": "Petunias",
+    "soilType": "Well-draining soil",
+    "wateringAmount": "Regular watering",
+    "sunlight": "Full sun",
+    "toxicToPets": false,
+    "wateringFrequency": "2-3 times a week"
+  },
+  {
+    "name": "Snapdragons",
+    "soilType": "Well-draining soil",
+    "wateringAmount": "Regular watering",
+    "sunlight": "Full sun to partial shade",
+    "toxicToPets": false,
+    "wateringFrequency": "2-3 times a week"
   }
 ]
