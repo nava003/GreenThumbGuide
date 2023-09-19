@@ -7,24 +7,6 @@ const fs = require('fs');
 router.get('/', async (req, res) => {
   try {
     res.render('homepage', {logged_in: req.session.logged_in});
-    // // Get all projects and JOIN with user data
-    // const plantData = await Plant.findAll({
-    //   include: [
-    //     {
-    //       model: User,
-    //       attributes: ['name'],
-    //     },
-    //   ],
-    // });
-
-    // // Serialize data so the template can read it
-    // const projects = projectData.map((project) => project.get({ plain: true }));
-
-    // // Pass serialized data and session flag into template
-    // res.render('homepage', { 
-    //   projects, 
-    //   logged_in: req.session.logged_in 
-    // });
   } catch (err) {
     res.status(500).json(err);
   }
@@ -62,17 +44,26 @@ router.get('/registration', (req, res) => {
   res.render('registration');
 });
 
-router.get('/plant', async (req, res) => {
+router.get('/plantGallery', async (req, res) => {
   try {
-    res.render('plant');
-    const projectData = await Project.findByPk(req.params.id, {
-      include: [
-        {
-          model: User,
-          attributes: ['name'],
-        },
-      ],
+    // Get all projects and JOIN with user data
+    const plantData = await Plant.findAll();
+
+    // Serialize data so the template can read it
+    const plants = plantData.map((plant) => plant.get({ plain: true }));
+    
+    res.render('plantGallery', {
+      plants,
+      logged_in: req.session.logged_in
     });
+    // const projectData = await Project.findByPk(req.params.id, {
+    //   include: [
+    //     {
+    //       model: User,
+    //       attributes: ['name'],
+    //     },
+    //   ],
+    // });
 
     const plant = plantData.get({ plain: true });
 

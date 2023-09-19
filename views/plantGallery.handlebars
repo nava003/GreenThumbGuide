@@ -1,0 +1,13 @@
+<section class="plant">
+  {{!-- <img src="/images/{{plant.filename}}" alt="{{plant.description}}"> --}}
+</section>
+<!-- Handlebars Template -->
+<div class="plant-card">
+  {{#each plants}}
+  <h2>{{plant_name}}</h2>
+  <p>Soil Type: {{soilType}}</p>
+  <p>Watering Amount (inches): {{wateringInches}}</p>
+  <p>Toxic to Pets: {{toxicToPets}}</p>
+  <p>Watering Frequency: {{wateringFrequency}}</p>
+  {{/each}}
+</div>
