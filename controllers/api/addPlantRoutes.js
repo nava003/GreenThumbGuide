@@ -15,7 +15,7 @@ router.post('/add-plant', async (req, res) => {
 
         // Create a new plant record in the database
         const newPlant = await Plant.create({
-            name,
+            plant_name,
             soilType,
             wateringInches,
             toxicToPets,
