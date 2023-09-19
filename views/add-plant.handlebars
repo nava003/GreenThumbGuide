@@ -1,0 +1,39 @@
+<h1>Add a New Plant</h1>
+
+<form action="/api/plants" method="POST">
+  <div class="form-group">
+    <label for="name">Plant Name</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+
+  <div class="form-group">
+    <label for="soilType">Soil Type</label>
+    <input type="text" id="soilType" name="soilType" required>
+  </div>
+
+  <div class="form-group">
+    <label for="wateringInches">Watering (Inches)</label>
+    <input type="number" id="wateringInches" name="wateringInches" required>
+  </div>
+
+  <div class="form-group">
+    <label for="toxicToPets">Toxic to Pets</label>
+    <select id="toxicToPets" name="toxicToPets" required>
+      <option value="true">Yes</option>
+      <option value="false">No</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="sunlight">Sunlight</label>
+    <input type="text" id="sunlight" name="sunlight" required>
+  </div>
+
+  <div class="form-group">
+    <label for="wateringFrequency">Watering Frequency</label>
+    <input type="text" id="wateringFrequency" name="wateringFrequency" required>
+  </div>
+
+
+  <button type="submit">Add Plant</button>
+</form>

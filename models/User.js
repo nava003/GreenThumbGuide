@@ -55,4 +55,12 @@ User.init(
   }
 );
 
+User.associate = (models) => {
+  User.belongsToMany(models.Plant, {
+    through: 'user_Plant',
+    as: 'favoritePlants',
+    foreignKey: 'user_id',
+  });
+};
+
 module.exports = User;
