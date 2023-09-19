@@ -328,7 +328,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "Roses",
+    "plant_name": "Roses",
     "soilType": "Well-draining soil",
     "wateringAmount": "Regular watering",
     "sunlight": "Full sun to partial shade",
@@ -336,7 +336,7 @@
     "wateringFrequency": "2-3 times a week"
   },
   {
-    "name": "Tulips",
+    "plant_name": "Tulips",
     "soilType": "Well-draining soil",
     "wateringAmount": "Regular watering",
     "sunlight": "Full sun to partial shade",
@@ -344,7 +344,7 @@
     "wateringFrequency": "2-3 times a week"
   },
   {
-    "name": "Daffodils",
+    "plant_name": "Daffodils",
     "soilType": "Well-draining soil",
     "wateringAmount": "Regular watering",
     "sunlight": "Full sun to partial shade",
@@ -352,7 +352,7 @@
     "wateringFrequency": "2-3 times a week"
   },
   {
-    "name": "Orchids",
+    "plant_name": "Orchids",
     "soilType": "Orchid mix",
     "wateringAmount": "Moderate watering",
     "sunlight": "Bright indirect light",
@@ -360,7 +360,7 @@
     "wateringFrequency": "Once a week"
   },
   {
-    "name": "Lilies",
+    "plant_name": "Lilies",
     "soilType": "Well-draining soil",
     "wateringAmount": "Regular watering",
     "sunlight": "Bright indirect light",
@@ -368,7 +368,7 @@
     "wateringFrequency": "2-3 times a week"
   },
   {
-    "name": "Gerbera Daisies",
+    "plant_name": "Gerbera Daisies",
     "soilType": "Well-draining soil",
     "wateringAmount": "Regular watering",
     "sunlight": "Full sun",
@@ -376,7 +376,7 @@
     "wateringFrequency": "2-3 times a week"
   },
   {
-    "name": "Carnations",
+    "plant_name": "Carnations",
     "soilType": "Well-draining soil",
     "wateringAmount": "Regular watering",
     "sunlight": "Full sun to partial shade",
@@ -384,7 +384,7 @@
     "wateringFrequency": "2-3 times a week"
   },
   {
-    "name": "Sunflowers",
+    "plant_name": "Sunflowers",
     "soilType": "Well-draining soil",
     "wateringAmount": "Regular watering",
     "sunlight": "Full sun",
@@ -392,7 +392,7 @@
     "wateringFrequency": "2-3 times a week"
   },
   {
-    "name": "Poinsettias",
+    "plant_name": "Poinsettias",
     "soilType": "Well-draining soil",
     "wateringAmount": "Moderate watering",
     "sunlight": "Bright indirect light",
@@ -400,7 +400,7 @@
     "wateringFrequency": "Once a week"
   },
   {
-    "name": "Hydrangeas",
+    "plant_name": "Hydrangeas",
     "soilType": "Well-draining soil",
     "wateringAmount": "Regular watering",
     "sunlight": "Partial shade",
@@ -408,7 +408,7 @@
     "wateringFrequency": "2-3 times a week"
   },
   {
-    "name": "African Violets",
+    "plant_name": "African Violets",
     "soilType": "African violet mix",
     "wateringAmount": "Moderate watering",
     "sunlight": "Bright indirect light",
@@ -416,7 +416,7 @@
     "wateringFrequency": "Once a week"
   },
   {
-    "name": "Peonies",
+    "plant_name": "Peonies",
     "soilType": "Well-draining soil",
     "wateringAmount": "Regular watering",
     "sunlight": "Full sun to partial shade",
@@ -424,7 +424,7 @@
     "wateringFrequency": "2-3 times a week"
   },
   {
-    "name": "Marigolds",
+    "plant_name": "Marigolds",
     "soilType": "Well-draining soil",
     "wateringAmount": "Regular watering",
     "sunlight": "Full sun",
@@ -432,7 +432,7 @@
     "wateringFrequency": "2-3 times a week"
   },
   {
-    "name": "Petunias",
+    "plant_name": "Petunias",
     "soilType": "Well-draining soil",
     "wateringAmount": "Regular watering",
     "sunlight": "Full sun",
@@ -440,7 +440,7 @@
     "wateringFrequency": "2-3 times a week"
   },
   {
-    "name": "Snapdragons",
+    "plant_name": "Snapdragons",
     "soilType": "Well-draining soil",
     "wateringAmount": "Regular watering",
     "sunlight": "Full sun to partial shade",
