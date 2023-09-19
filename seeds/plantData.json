@@ -1,6 +1,6 @@
 [
   {
-    "name": "Spider Plant",
+    "plant_name": "Spider Plant",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.0,
     "toxicToPets": false,
@@ -8,7 +8,7 @@
     "wateringFrequency": "Weekly"
   },
   {
-    "name": "Snake Plant",
+    "plant_name": "Snake Plant",
     "soilType": "Well-draining potting mix",
     "wateringInches": 0.5,
     "toxicToPets": true,
@@ -16,7 +16,7 @@
     "wateringFrequency": "Monthly"
   },
   {
-    "name": "Pothos",
+    "plant_name": "Pothos",
     "soilType": "Well-draining potting mix",
     "wateringInches": 0.5,
     "toxicToPets": true,
@@ -24,7 +24,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "Peace Lily",
+    "plant_name": "Peace Lily",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.0,
     "toxicToPets": true,
@@ -32,7 +32,7 @@
     "wateringFrequency": "Weekly"
   },
   {
-    "name": "ZZ Plant",
+    "plant_name": "ZZ Plant",
     "soilType": "Well-draining potting mix",
     "wateringInches": 0.5,
     "toxicToPets": true,
@@ -40,7 +40,7 @@
     "wateringFrequency": "Monthly"
   },
   {
-    "name": "Aloe Vera",
+    "plant_name": "Aloe Vera",
     "soilType": "Cactus or succulent mix",
     "wateringInches": 0.5,
     "toxicToPets": true,
@@ -48,7 +48,7 @@
     "wateringFrequency": "Monthly"
   },
   {
-    "name": "Rubber Plant",
+    "plant_name": "Rubber Plant",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.0,
     "toxicToPets": true,
@@ -56,7 +56,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "Monstera Deliciosa",
+    "plant_name": "Monstera Deliciosa",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.5,
     "toxicToPets": true,
@@ -64,7 +64,7 @@
     "wateringFrequency": "Weekly"
   },
   {
-    "name": "Fiddle Leaf Fig",
+    "plant_name": "Fiddle Leaf Fig",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.5,
     "toxicToPets": true,
@@ -72,7 +72,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "Succulent (Echeveria)",
+    "plant_name": "Succulent (Echeveria)",
     "soilType": "Succulent or cactus mix",
     "wateringInches": 0.25,
     "toxicToPets": true,
@@ -80,7 +80,7 @@
     "wateringFrequency": "Monthly"
   },
   {
-    "name": "Jade Plant",
+    "plant_name": "Jade Plant",
     "soilType": "Succulent or cactus mix",
     "wateringInches": 0.5,
     "toxicToPets": true,
@@ -88,7 +88,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "Boston Fern",
+    "plant_name": "Boston Fern",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.0,
     "toxicToPets": false,
@@ -96,7 +96,7 @@
     "wateringFrequency": "Weekly"
   },
   {
-    "name": "Lavender",
+    "plant_name": "Lavender",
     "soilType": "Well-draining potting mix",
     "wateringInches": 0.5,
     "toxicToPets": true,
@@ -104,7 +104,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "Calathea",
+    "plant_name": "Calathea",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.0,
     "toxicToPets": true,
@@ -112,7 +112,7 @@
     "wateringFrequency": "Weekly"
   },
   {
-    "name": "African Violet",
+    "plant_name": "African Violet",
     "soilType": "African violet potting mix",
     "wateringInches": 0.5,
     "toxicToPets": false,
@@ -120,7 +120,7 @@
     "wateringFrequency": "Monthly"
   },
   {
-    "name": "Bamboo Palm",
+    "plant_name": "Bamboo Palm",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.0,
     "toxicToPets": false,
@@ -128,7 +128,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "String of Pearls",
+    "plant_name": "String of Pearls",
     "soilType": "Succulent or cactus mix",
     "wateringInches": 0.25,
     "toxicToPets": true,
@@ -136,7 +136,7 @@
     "wateringFrequency": "Monthly"
   },
   {
-    "name": "Philodendron",
+    "plant_name": "Philodendron",
     "soilType": "Well-draining potting mix",
     "wateringInches": 0.5,
     "toxicToPets": true,
@@ -144,7 +144,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "Dieffenbachia (Dumb Cane)",
+    "plant_name": "Dieffenbachia (Dumb Cane)",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.0,
     "toxicToPets": true,
@@ -152,7 +152,7 @@
     "wateringFrequency": "Weekly"
   },
   {
-    "name": "Ficus Bonsai",
+    "plant_name": "Ficus Bonsai",
     "soilType": "Bonsai potting mix",
     "wateringInches": 0.5,
     "toxicToPets": true,
@@ -160,7 +160,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "Dracaena Marginata",
+    "plant_name": "Dracaena Marginata",
     "soilType": "Well-draining potting mix",
     "wateringInches": 0.5,
     "toxicToPets": true,
@@ -168,7 +168,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "African Mask Plant",
+    "plant_name": "African Mask Plant",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.0,
     "toxicToPets": true,
@@ -176,7 +176,7 @@
     "wateringFrequency": "Weekly"
   },
   {
-    "name": "Bird of Paradise",
+    "plant_name": "Bird of Paradise",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.5,
     "toxicToPets": true,
@@ -184,7 +184,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "English Ivy",
+    "plant_name": "English Ivy",
     "soilType": "Well-draining potting mix",
     "wateringInches": 0.5,
     "toxicToPets": true,
@@ -192,7 +192,7 @@
     "wateringFrequency": "Weekly"
   },
   {
-    "name": "Chinese Evergreen",
+    "plant_name": "Chinese Evergreen",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.0,
     "toxicToPets": true,
@@ -200,7 +200,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "Schefflera (Umbrella Plant)",
+    "plant_name": "Schefflera (Umbrella Plant)",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.0,
     "toxicToPets": true,
@@ -208,7 +208,7 @@
     "wateringFrequency": "Weekly"
   },
   {
-    "name": "Chinese Money Plant (Pilea)",
+    "plant_name": "Chinese Money Plant (Pilea)",
     "soilType": "Well-draining potting mix",
     "wateringInches": 0.5,
     "toxicToPets": false,
@@ -216,7 +216,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "Christmas Cactus",
+    "plant_name": "Christmas Cactus",
     "soilType": "Cactus or succulent mix",
     "wateringInches": 0.5,
     "toxicToPets": false,
@@ -224,7 +224,7 @@
     "wateringFrequency": "Monthly"
   },
   {
-    "name": "Zebra Plant (Haworthia)",
+    "plant_name": "Zebra Plant (Haworthia)",
     "soilType": "Succulent or cactus mix",
     "wateringInches": 0.25,
     "toxicToPets": true,
@@ -232,7 +232,7 @@
     "wateringFrequency": "Monthly"
   },
   {
-    "name": "Alocasia Polly",
+    "plant_name": "Alocasia Polly",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.0,
     "toxicToPets": true,
@@ -240,7 +240,7 @@
     "wateringFrequency": "Weekly"
   },
   {
-    "name": "Dwarf Umbrella Tree (Schefflera Arboricola)",
+    "plant_name": "Dwarf Umbrella Tree (Schefflera Arboricola)",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.0,
     "toxicToPets": true,
@@ -248,7 +248,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "Heartleaf Philodendron",
+    "plant_name": "Heartleaf Philodendron",
     "soilType": "Well-draining potting mix",
     "wateringInches": 0.5,
     "toxicToPets": true,
@@ -256,7 +256,7 @@
     "wateringFrequency": "Weekly"
   },
   {
-    "name": "Aglaonema (Chinese Evergreen)",
+    "plant_name": "Aglaonema (Chinese Evergreen)",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.0,
     "toxicToPets": true,
@@ -264,7 +264,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "Ficus Elastica (Rubber Plant)",
+    "plant_name": "Ficus Elastica (Rubber Plant)",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.0,
     "toxicToPets": true,
@@ -272,7 +272,7 @@
     "wateringFrequency": "Weekly"
   },
   {
-    "name": "Ponytail Palm",
+    "plant_name": "Ponytail Palm",
     "soilType": "Well-draining potting mix",
     "wateringInches": 0.5,
     "toxicToPets": true,
@@ -280,7 +280,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "String of Bananas",
+    "plant_name": "String of Bananas",
     "soilType": "Succulent or cactus mix",
     "wateringInches": 0.25,
     "toxicToPets": true,
@@ -288,7 +288,7 @@
     "wateringFrequency": "Monthly"
   },
   {
-    "name": "Nerve Plant (Fittonia)",
+    "plant_name": "Nerve Plant (Fittonia)",
     "soilType": "Well-draining potting mix",
     "wateringInches": 0.5,
     "toxicToPets": true,
@@ -296,7 +296,7 @@
     "wateringFrequency": "Weekly"
   },
   {
-    "name": "Alocasia Zebrina",
+    "plant_name": "Alocasia Zebrina",
     "soilType": "Well-draining potting mix",
     "wateringInches": 1.0,
     "toxicToPets": true,
@@ -304,7 +304,7 @@
     "wateringFrequency": "Bi-weekly"
   },
   {
-    "name": "Croton (Codiaeum variegatum)",
+    "plant_name": "Croton (Codiaeum variegatum)",
     "soilType": "Well-draining potting mix",
     "wateringInches": 0.5,
     "toxicToPets": true,
@@ -312,7 +312,7 @@
     "wateringFrequency": "Weekly"
   },
   {
-    "name": "Bird's Nest Fern",
+    "plant_name": "Bird's Nest Fern",
     "soilType": "Well-draining potting mix",
     "wateringInches": 0.75,
     "toxicToPets": false,
@@ -320,7 +320,7 @@
     "wateringFrequency": "Weekly"
   },
   {
-    "name": "Parlor Palm",
+    "plant_name": "Parlor Palm",
     "soilType": "Well-draining potting mix",
     "wateringInches": 0.5,
     "toxicToPets": false,

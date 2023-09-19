@@ -1,6 +1,8 @@
 const router = require('express').Router();
 const { Plant, User } = require('../models');
 const withAuth = require('../utils/auth');
+const handlebars = require('handlebars');
+const fs = require('fs');
 
 router.get('/', async (req, res) => {
   try {
@@ -27,6 +29,23 @@ router.get('/', async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+router.get('/get-plant-data/:plant_name', async (req, res) => {
+
+  const searchData = await Plant.findOne({ 
+    where: { plant_name: decodeURI(req.params.plant_name) }
+  });
+  
+  const plant = searchData.get({ plain: true });
+
+  let plantString = fs.readFileSync('./views/plantData.handlebars', 'utf-8');
+
+  const template = handlebars.compile(plantString);
+
+  const renderedHTML = template(plant);
+
+  res.json(renderedHTML);
+})
 
 router.get('/login', (req, res) => {
   // If the user is already logged in, redirect the request to another route

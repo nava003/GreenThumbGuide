@@ -11,12 +11,9 @@ Plant.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
+    plant_name: {
       type: DataTypes.STRING,
       allowNull: false,
-    },
-    description: {
-      type: DataTypes.STRING,
     },
     soilType: {
       type: DataTypes.STRING, // Corresponds to the "soilType" field in plantData.json
