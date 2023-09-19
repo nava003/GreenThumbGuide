@@ -1,6 +1,8 @@
 const router = require('express').Router();
 const { Plant, User } = require('../models');
 const withAuth = require('../utils/auth');
+const handlebars = require('handlebars');
+const fs = require('fs');
 
 router.get('/', async (req, res) => {
   try {
@@ -28,16 +30,21 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.post('/get-plant-data', async (req, res) => {
+router.get('/get-plant-data/:plant_name', async (req, res) => {
+
   const searchData = await Plant.findOne({ 
-    where: { name: req.body.name }
+    where: { plant_name: decodeURI(req.params.plant_name) }
   });
   
-  console.log(searchData);
+  const plant = searchData.get({ plain: true });
 
-  // if(searchData) {
-  //   res.render('/homepage');
-  // }
+  let plantString = fs.readFileSync('./views/plantData.handlebars', 'utf-8');
+
+  const template = handlebars.compile(plantString);
+
+  const renderedHTML = template(plant);
+
+  res.json(renderedHTML);
 })
 
 router.get('/login', (req, res) => {

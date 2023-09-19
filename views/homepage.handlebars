@@ -1,8 +1,9 @@
 <h1>Search for a Houseplant</h1>
-<form>
+<form action="/get-plant-data" method="GET">
     <input type="text" id="plantName" name="plantName" placeholder="Enter a plant name">
     <button type="submit">Search</button>
 </form>
-{{!-- {{{findPlant searchResult plants}}}  --}}
+<br>
+<div id="plantData"></div>
 
 <script src="./js/homepage.js"></script>
