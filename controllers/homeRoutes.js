@@ -65,12 +65,12 @@ router.get('/plantGallery', async (req, res) => {
     //   ],
     // });
 
-    // const project = projectData.get({ plain: true });
+    const plant = plantData.get({ plain: true });
 
-    // res.render('project', {
-    //   ...project,
-    //   logged_in: req.session.logged_in
-    // });
+    res.render('plant', {
+      ...plant,
+      logged_in: req.session.logged_in
+    });
   } catch (err) {
     res.status(500).json(err);
   }
