@@ -30,13 +30,6 @@ router.get('/get-plant-data/:plant_name', async (req, res) => {
 })
 
 router.get('/login', (req, res) => {
-  console.log(req.session.logged_in);
-  // If the user is already logged in, redirect the request to another route
-  if (req.session.logged_in) {
-    res.redirect('/');
-    return;
-  }
-
   res.render('login');
 });
 
@@ -64,7 +57,6 @@ router.get('/plantGallery', async (req, res) => {
 // Use withAuth middleware to prevent access to route
 router.get('/profile', withAuth, async (req, res) => {
   try {
-    console.log(req.session.user_id);
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.user_id, {
       attributes: { exclude: ['password'] },
@@ -74,7 +66,7 @@ router.get('/profile', withAuth, async (req, res) => {
 
     res.render('profile', {
       ...user,
-      logged_in: true
+      logged_in: req.session.logged_in
     });
   } catch (err) {
     console.log("Error:", err);
@@ -82,5 +74,10 @@ router.get('/profile', withAuth, async (req, res) => {
   }
 });
 
+router.get('/add-plant', withAuth, async (req, res) => {
+  res.render('add-plant', {
+    logged_in: req.session.logged_in
+  });
+});
 
 module.exports = router;
