@@ -6,10 +6,7 @@ const withAuth = require('../../utils/auth');
 router.post('/', withAuth, async (req, res) => {
   try {
     // Create a new plant record in the database, associating it with the logged-in user
-    const newPlant = await Plant.create({
-      ...req.body,
-      user_id: req.session.user_id, // This associates the plant with the logged-in user
-    });
+    const newPlant = await Plant.create(req.body);
 
     res.status(201).json(newPlant); // Use status 201 for resource creation
   } catch (err) {
