@@ -8,8 +8,6 @@ const addPlantFormHandler = async (event) => {
     const sunlight = document.querySelector('#sunlight').value.trim();
     const wateringFrequency = document.querySelector('#wateringFrequency').value.trim();
 
-    console.log('Before JSON:', plant_name, soilType, wateringInches, toxicToPets, sunlight, wateringFrequency);
-
     if (plant_name && soilType && !isNaN(wateringInches)
         && typeof toxicToPets === 'boolean' && sunlight && wateringFrequency)
     {
@@ -25,9 +23,6 @@ const addPlantFormHandler = async (event) => {
             }),
             headers: { 'Content-Type': 'application/json' },
         });
-
-        console.log("JSON Body:", JSON.stringify({ plant_name, soilType, wateringInches, toxicToPets, sunlight, wateringFrequency }))
-        console.log(response);
 
         if (response.ok) {
             document.location.replace('/plantGallery');
