@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-![GREEN-THUMB-SS](./assets/GREEN-THUMB-SS.png)
+![GREEN-THUMB-SS](./public/images/GREEN-THUMB-SS.png)
 
 ## Description
 
