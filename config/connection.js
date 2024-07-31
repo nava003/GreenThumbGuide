@@ -23,7 +23,7 @@ if (process.env.TIDB_URL) {
       port: process.env.TIDB_PORT,
       dialectOptions: {
         ssl: {
-          ca: fs.readFileSync(path.resolve('../isrgrootx1.pem'))
+          ca: fs.readFileSync(path.resolve(process.env.CA_PATH))
         }
       }
     }
